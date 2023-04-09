@@ -16,6 +16,7 @@
             min-width: 545px;
         }
         #corpo {
+            display: flex;
             width: 545px;
             height: 700px;
             box-shadow: 10px 10px 20px rgb(155 155 155);
@@ -72,6 +73,22 @@
             flex-direction: row;
             padding: 20px;
         }
+        #nome {
+            font-weight: bolder;
+            line-height: 30px;
+            color: white;
+            width: 200px;
+            margin-bottom: 10px;
+        }
+        #descricao {
+            line-height: 15px;
+            font-size: 12px;
+            width: 300px;
+            font-weight: normal;
+        }
+        .experiencias {
+            padding: 8px 0px 0px 10px;
+        }
         .dados-informacao {
             border-bottom: 1px solid #FEFEFD;
             padding: 20px;
@@ -89,7 +106,7 @@
             font-family: "system-ui";
             text-align: left;
             color: white;
-            font-size: 10px;
+            font-size: 11px;
             font-weight: bolder;
             margin-bottom: 4px;
         }
@@ -106,6 +123,16 @@
             font-family: "system-ui";
             font-weight: bold;
         }
+        .topicos {
+            font-size: 9px;
+            line-height: 15px;
+            color: white;
+            font-family: "system-ui";
+            margin-left: 15px;
+            padding-left: 10px;
+            border-left:  1px solid #FEFEFD;
+            width: 80%;
+        }
     </style>
 </head>
 <body>
@@ -114,7 +141,7 @@
             <div id="esquerda">
                 <img id="foto-perfil"
                     src="foto-perfil.gif"
-                    width="170px" height="auto"
+                    width="170" height="auto"
                     alt="gif-salsicha"
                 >
                 <div id="sobre">
@@ -266,7 +293,7 @@
                             <h3 class="conheca-meu-trabalho-texto">
                                 CONHEÇA MAIS O MEU TRABALHO
                             </h3>
-                            <a id="botao-conheca-meu-trabalho" href="teste">
+                            <a id="botao-conheca-meu-trabalho" href="impossivel/experiencia.html">
                                 <h3 class="conheca-meu-trabalho-texto">
                                     CLIQUE AQUI
                                 </h3>
@@ -283,6 +310,57 @@
                             alt="maquina-misterio"
                         >
                     </div>
+                </div>
+            </div>
+            <div id="direita">
+                <div id="apresentacao">
+                    <h1 id="nome">NORVILE ROGERS</h1>
+                    <div id="descricao" class="texto">
+                        Sou hippie, tenho 17 anos, descontraído, brincalhão, um pouquinho covarde, membro da Mystery Inc. e melhor amigo é o mascote da equipe: Scooby-Doo, um Dogue Alemão falante.
+                    </div>
+                </div>
+                <div class="experiencias">
+                    <h2 class="titulo">EXPERIÊNCIA PROFISSIONAL</h2>
+                    <div class="topicos">
+                        • Detetives juniores de aluguel na Agência de Detetives Scooby-Doo
+                        <br>
+                        <br>
+                        • Entregador de jornal do Daily Babbler
+                        <br>
+                        <br>
+                        • Trabalhos questionáveis ​​em um canteiro de obras
+                        <br>
+                        <br>
+                        • Detetive com meu tio Fearless Shagaford na Fearless Detective Agency
+                        <br>
+                        <br>
+                        • Jornalista freelancer
+                        <br>
+                        <br>
+                        • Professor de ginástica para as meninas de Grimwood
+                        <br>
+                        <br>
+                        • Piloto de corrida
+                        <br>
+                        <br>
+                        • Alfândega de um aeroporto durante a dissolução da Mystery Inc.
+                        <br>
+                        <br>
+                        • Voluntário do zoológico
+                        <br>
+                        <br>
+                    </div>
+                </div>
+                <div class="experiencias">
+                    <h2 class="titulo">REREFÊNCIAS PROFISSIONAIS</h2>
+                    <div class="topicos">
+                        <strong>Mystery Inc.</strong>
+                        <br>
+                        Velma Dinkley, Daphne Blake, Fred Jones, Scooby-Doo
+                        <br>
+                        <strong>Fearless Shagaford</strong>
+                        <br>
+                        Meu tio e dono da Fearless Detective Agency
                 </div>
             </div>
         </div>
